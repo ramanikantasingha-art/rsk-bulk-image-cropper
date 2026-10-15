@@ -1,0 +1,35 @@
+# Python local environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets (keep a sanitized .env.example if needed)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Logs and temporary files
+crash_log.txt
+cropper_startup_log.txt
+*.log
+*.tmp
+*.bak
+
+# Editor and OS-generated files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Default local export folders (user-generated)
+output/
+outputs/
